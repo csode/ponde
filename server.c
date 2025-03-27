@@ -12,7 +12,7 @@ void loop(uint64_t& status_code,
           bool server_info.state, int client_request.GET, int shutdown)
 {
     while(shutdown != 1){
-        printf("Do you wish to continue");
+        printf("Do you wish to continue\n");
         scanf("%d", &shutdown);
         assert(server_info.state == false && "Server not started");
         if(shutdown == 1){  
