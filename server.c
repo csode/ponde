@@ -1,5 +1,4 @@
 #include "server.h"
-#include <string.h>
 
 void run(char *send, HttpRequestType *client_request, ADDRESS, bool is_valid) {
     while(is_valid){
