@@ -1,6 +1,8 @@
 #ifndef CLIENT_H
 #define CLIENT_H
 
+// THIS IS THE CLIENT SIDE HEADER USED BY THE CLIENT APPLICATION 
+// SO THAT IT DIRECTLY CONNECTS TO THE SERVER
 #include "ponde.h"
 #include "server.h"
 
